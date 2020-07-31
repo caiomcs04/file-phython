@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/projeto.css'>
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <script type="text/javascript" src='js/slideshow.js'></script>
+
+</head>
+
+<body>
+    <audio autoplay>
+        <source src="audio/bossalounge.mp3">
+    </audio>
+    <header class="headerindex">
+        <article class="headerlogo">
+            <a href="index.html">
+                <img src="imagem/logo3.png" class="imgheader">
+            </a>
+        </article>
+        <nav class="headerlinks">
+            <p class="pheader">
+                <article class="articleheader">
+                    <section class="sectionlinks">
+                        <a href="quemsomos.html">FILÉ PYTHON</a></li>
+                    </section>
+                    <section class="sectionlinks1">
+                        <a href="cardapio.html">CARDÁPIO</a>
+                    </section>
+                    <section class="sectionlinks">
+                        <a href="galeria.html">GALERIA</a>
+                    </section>
+                    <section class="sectionlinks">
+                        <a href="reservas.html">RESERVAS</a>
+                    </section>
+                    <section class="sectionlinks">
+                        <a href="avaliacao.html">AVALIAÇÃO</a>
+                    </section>
+                </article>
+            </p>
+
+        </nav>
+        <div style="background-color: black; width:100%; height: 20px; float: left;">
+
+        </div>
+    </header>
+    <main>
+        <section id="setaDireita" class='divsetas' id="divSetaDireita" onclick="slideShow('direita')">
+            <img src="imagem/setaesquerda.png" class='setas' id="setadireita">
+        </section>
+        <section id="setaEsquerda" class='divsetas' id="divSetaEsquerda" onclick="slideShow('esquerda')">
+            <img src="imagem/setaesquerda.png" class='setas'>
+        </section>
+        <section id="sectionball1">
+            <a class="ball" href="quemsomos.html"></a>
+        </section>
+        <section id="sectionball2">
+            <a class="ball" href="cardapio.html"></a>
+        </section>
+        <section id="sectionball3">
+            <a class="ball" href="galeria.html"></a>
+        </section>
+        <section id="sectionball4">
+            <a class="ball" href="reservas.html"></a>
+        </section>
+        <section id="sectionball5">
+            <a class="ball" href="avaliacao.html"></a>
+        </section>
+        <article id="articleindex">
+
+        </article>
+
+    </main>
+    <footer class="footerindex">
+        <article class="sectionfooter">
+            <img src="imagem/logo3.png" class="imgheader">
+            <p id="pfooter">
+                O Filé Python está presente na Barra da Tijuca e em Curicica, em ambas com estacionamento com manobristas. As duas unidades contam com consultoria de chefs renomados e talentosos que criam pratos novos para o buffet semanalmente.
+            </p>
+            <p id="fotosfooter">
+                <a href="#"><img src="imagem/whatsapp.png" class="imgfooter"></a>
+                <a href="#"><img src="imagem/insta.png" class="imgfooter"></a>
+                <a href="#"><img src="imagem/face.png" class="imgfooter"></a>
+            </p>
+        </article>>
+        <article class="sectionfooter" id="borderfooter">
+            <p>
+                <h2 class="h2">VENHA TRABALHAR CONOSCO</h1>
+                    <h3 class="h3">QUESTIONÁRIO
+                </h2>
+            </p>
+            <a href="questionario.html">
+                <section class="sectionbuttom">
+                    CLIQUE<br>AQUI
+                </section>
+            </a>
+            <p>
+                <h2 class="h2">FAÇA SUA RESERVA</h1>
+                    <h3 class="h3">RESERVE AGORA
+                </h2>
+            </p>
+            <a href="quemsomos.html">
+                <section class="sectionbuttom">
+                    CLIQUE<br>AQUI
+                </section>
+            </a>
+        </article>
+        <article class="sectionfooter">
+            <p id="informacoes">
+                <img class="pins" src="imagem/local.png"><b>Barra da Tijuca:</b>
+                <br> &nbsp;&nbsp;&nbsp;Av. das Américas 3.555,<br> &nbsp;&nbsp;&nbsp; Bloco 1, Sala 301
+            </p>
+            <p id="informacoes2">
+                <img class="pins2" src="imagem/clock.png">SEG A SAB: 11:00 às 23:00<br>
+                <img class="pins2" src="imagem/clock.png">DOM: 10:00 ás 00:00<br>
+                <img class="pins2" src="imagem/telefone.png">(21) 98592-1950
+            </p>
+        </article>
+        <article class="sectionfooter">
+            <p id="informacoes">
+                <img class="pins" src="imagem/local.png"><b>Curicica:</b>
+                <br> &nbsp;&nbsp;&nbsp;Av. Bandeirantes 4.535,<br> &nbsp;&nbsp;&nbsp; Bloco 4, Sala 901
+            </p>
+            <p id="informacoes2">
+                <img class="pins2" src="imagem/clock.png">SEG A SAB: 11:00 às 23:00<br>
+                <img class="pins2" src="imagem/clock.png">DOM: 10:00 ás 00:00<br>
+                <img class="pins2" src="imagem/telefone.png">(21) 97406-9695
+            </p>
+        </article>
+    </footer>
+    <script>
+        autoSlide();
+
+        function autoSlide() {
+            let fundo = document.getElementById('articleindex')
+            let ball1 = document.getElementById('sectionball1')
+            let ball2 = document.getElementById('sectionball2')
+            let ball3 = document.getElementById('sectionball3')
+            let ball4 = document.getElementById('sectionball4')
+            let ball5 = document.getElementById('sectionball5')
+
+            if (cont == -1) {
+                cont = 5
+            } else if (cont == 6) {
+                cont = 0
+            }
+
+            switch (cont) {
+                case 0:
+                    fundo.style.background = 'url(imagem/bgindex.jpg)';
+                    fundo.style.backgroundSize = '100% 100%';
+                    ball1.style.backgroundColor = 'gray';
+                    ball2.style.backgroundColor = 'gray';
+                    ball3.style.backgroundColor = 'gray';
+                    ball4.style.backgroundColor = 'gray';
+                    ball5.style.backgroundColor = 'gray';
+                    break;
+                case 1:
+                    fundo.style.background = 'url(imagem/historia.jpg)';
+                    fundo.style.backgroundSize = '100% 100%';
+                    ball1.style.backgroundColor = 'rgb(49, 49, 49)';
+                    ball2.style.backgroundColor = 'gray';
+                    ball3.style.backgroundColor = 'gray';
+                    ball4.style.backgroundColor = 'gray';
+                    ball5.style.backgroundColor = 'gray';
+
+                    break;
+                case 2:
+                    fundo.style.background = 'url(imagem/menu.jpg)';
+                    fundo.style.backgroundSize = '100% 100%';
+                    ball2.style.backgroundColor = 'rgb(49, 49, 49)';
+                    ball1.style.backgroundColor = 'gray';
+                    ball3.style.backgroundColor = 'gray';
+                    ball4.style.backgroundColor = 'gray';
+                    ball5.style.backgroundColor = 'gray';
+
+                    break;
+                case 3:
+                    fundo.style.background = 'url(imagem/bggaleria.jpg)';
+                    fundo.style.backgroundSize = '100% 100%';
+                    ball3.style.backgroundColor = 'rgb(49, 49, 49)';
+                    ball2.style.backgroundColor = 'gray';
+                    ball1.style.backgroundColor = 'gray';
+                    ball4.style.backgroundColor = 'gray';
+                    ball5.style.backgroundColor = 'gray';
+
+                    break;
+                case 4:
+                    fundo.style.background = 'url(imagem/indexreserva.jpg)';
+                    fundo.style.backgroundSize = '100% 100%';
+                    ball4.style.backgroundColor = 'rgb(49, 49, 49)';
+                    ball2.style.backgroundColor = 'gray';
+                    ball3.style.backgroundColor = 'gray';
+                    ball1.style.backgroundColor = 'gray';
+                    ball5.style.backgroundColor = 'gray';
+
+                    break;
+                case 5:
+                    fundo.style.background = 'url(imagem/avaliacao.jpeg)';
+                    fundo.style.backgroundSize = '100% 100%';
+                    ball5.style.backgroundColor = 'rgb(49, 49, 49)';
+                    ball2.style.backgroundColor = 'gray';
+                    ball3.style.backgroundColor = 'gray';
+                    ball4.style.backgroundColor = 'gray';
+                    ball1.style.backgroundColor = 'gray';
+
+                    break;
+                default:
+                    break;
+            }
+            cont++
+            setTimeout(autoSlide, 4000)
+        }
+    </script>
+</body>
+
+</html>
