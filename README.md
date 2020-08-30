@@ -19,4 +19,5 @@ Acesse a pasta do projeto seu terminal:
 # Execução
 
 Abra o arquivo em um interpretador a sua escolha para executar qualquer tipo de alteração.
+
 Abra em seu navegador o arquivo index.html para executar o projeto.
