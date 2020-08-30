@@ -21,3 +21,11 @@ Acesse a pasta do projeto seu terminal:
 Abra o arquivo em um interpretador a sua escolha para executar qualquer tipo de alteração.
 
 Abra em seu navegador o arquivo index.html para executar o projeto.
+
+# Autor
+
+-**Caio Sampaio** - Idealizador e Criador do Projeto.
+
+# Agradecimentos
+
+**Professor Luciano** - Acompanhou e orientou o projeto durante sua execução.
