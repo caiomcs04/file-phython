@@ -28,4 +28,4 @@ Abra em seu navegador o arquivo index.html para executar o projeto.
 
 # Agradecimentos
 
-**Professor Luciano** - Acompanhou e orientou o projeto durante sua execução.
+>- **Professor Luciano** - Acompanhou e orientou o projeto durante sua execução.
