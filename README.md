@@ -24,7 +24,7 @@ Abra em seu navegador o arquivo index.html para executar o projeto.
 
 # Autor
 
--**Caio Sampaio** - Idealizador e Criador do Projeto.
+>- **Caio Sampaio** - Idealizador e Criador do Projeto.
 
 # Agradecimentos
 
