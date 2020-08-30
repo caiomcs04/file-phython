@@ -9,8 +9,11 @@ Um interpetrador a sua escolha.
 # Instalção
 
 Clone esse projeto em seu computador com o comando:
-	git clone [Url do seu repositório]
+
+	git clone [https://github.com/caiomcs-step/file-phython]
 	
 Acesse a pasta do projeto seu terminal:
 
 	cd [Nome da pasta do seu Projeto]
+	
+	# Execução
