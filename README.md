@@ -6,11 +6,11 @@ vaga de emprego na mesma.
 # Pré Requisitos
 Um interpetrador a sua escolha.
 
-#Instalção
+# Instalção
 
 Clone esse projeto em seu computador com o comando:
-
 	git clone [Url do seu repositório]
+	
 Acesse a pasta do projeto seu terminal:
 
 	cd [Nome da pasta do seu Projeto]
